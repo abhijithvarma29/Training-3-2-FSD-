@@ -1,0 +1,46 @@
+---------------
+Abhijith Varma
+2211CS010007
+---------------
+DAY 2
+-----
+Give me some idea on what is a Data type. What are Primitive Data types and Non-Primitive Data types. Explain with some examples.
+
+->Datatypes are those that are used to describe what kind of data is used in a variable.
+->Datatypes are of two types:
+	-- Primitive Datatypes.
+	-- Non-Primitive Datatypes.
+
+Primitive :- 
+-> It can be used to store single values.
+-> They are default/Built-in.
+-> Primitive Datatypes include String, number, Boolean, null, undefined.
+-> Ex:
+	let str1="Double quotes";
+	console.log(str1);
+	console.log(typeof(str1));//String
+
+	let str2='single quotes';
+	console.log(str1);
+	console.log(typeof(str1));//String
+
+	let str3=`template literal`;
+	console.log(str1);
+	console.log(typeof(str1));//String
+
+	let num=10.57
+	console.log(num,typeof(num));//Number
+
+	let bool=true;
+	console.log(bool,typeof(bool));//Boolean
+
+	let a;
+	console.log(a,typeof(a));//Undefined
+
+	let b=null;
+	console.log(b,typeof(b));//null , Object
+
+Non-Primitive :- 
+->It can be used to store multiple values.
+-> They are user defined.
+-> Non-Primitive Datatypes include functions, arrays, objects.

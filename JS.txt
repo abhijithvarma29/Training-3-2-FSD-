@@ -1,0 +1,36 @@
+-> HTML is not a programming language, It is a markup language
+
+WHAT IS JAVASCRIPT?
+->JavaScript is a high level, loosely/weekly typed language, Lightweight and scripting language.
+->some scripting languages :- The source code is directly read by the interpreter.
+->Applications :- Webpages, mobile apps, smartwatch applications, gaming, server-side applications, database(mongodb).
+
+VARIABLES:-
+->Variables are containers/memory blocks to store values.
+->types: 1)var - can be re-initialized and re-declared
+	 2)const - can be re-initialized and cannot be re-declared
+	 3)let - cannot be re-initialized and re-declared
+
+->ex:- var a=10; / let b=20; / const c=30;
+	console.log(a,b,c);
+->javascript file can be created with extenstion .js.
+->console.log() -- used to check output in developer tool/debugging tool
+->document.write() -- this method is used to print the output on UI
+
+----------
+DATATYPES
+----------
+->Datatypes are used to mention what kind of data used in variable
+TYPES:
+1)primitive :- it can store single values.
+	     - they are default.
+	     - String, number, Boolean, null, undefined.
+2)non-primitive :- it can store multiple values.
+		 - they are user defined.
+		 - functions, arrays, objects.
+
+i) String - Sequence of characters enclosed within double quotes/ single quotes/ backticks(``).
+ii) number - it stores all the number data types such as integer, float etc.
+iii) Boolean - True or false
+iv) undefined - any variable declared but not initialized.
+v) null - empty of object.

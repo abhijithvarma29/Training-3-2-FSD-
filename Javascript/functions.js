@@ -84,3 +84,48 @@
 
 // let y=(a,b)=>{return a+b}//explicit return
 // console.log(y(10,5));
+
+//higher order function
+// function hof(a){
+    
+//     return a();
+// };
+
+//  let x = hof(function(){return "This is callback function"});
+//  console.log(x);
+
+// let b =  function(){
+//     console.log("Anonymus");
+//  };
+// b();
+
+// function add(callback){
+//     return callback(5,3);
+// };
+// let x = add(function(a,b){return a+b});
+// console.log(x);
+
+// let users = ["Navya" , "Vishnu" , "Keshav" , "Shravan(insta)" , "Shiva"];
+// let x = users.map((user)=>{
+//     // console.log(user);
+//     return user;
+// });
+// console.log(x);
+// let x = users.forEach((user)=>{
+//     return (user);
+// });
+// console.log(x);
+
+// var a =10;
+// let b= 30;
+// function x(){
+//     var user = "Abhijith";
+//     let company = "Amazon";
+//     const sal = 1234567890;
+//     console.log(user);
+//     console.log(company);
+//     console.log(sal);
+
+//     console.log(a , b);
+// }
+// x();

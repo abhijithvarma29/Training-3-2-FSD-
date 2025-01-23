@@ -32,30 +32,54 @@
 // .finally(()=>console.log("Finally"));
 
 //API FETCHING
+// // console.log(window);
+// function fetchusers(){
+//     let res=window.fetch("https://jsonplaceholder.typicode.com/users");
+//     // console.log(res);
+//     res.then((response)=>{
+//         // console.log(response);
+//         // console.log(response.json());
+//         return response.json().then(data=>{
+//             // console.log(data);
+//             let store = document.getElementById("store");
+//             // console.log(store);
+//             data.map((user)=>{
+//                 // console.log(user);
+//                 store.innerHTML+=`
+//                 <tr>
+//                 <td>${user.id}</td>
+//                 <td>${user.name}</td>
+//                 <td>${user.email}</td>
+//                 <td>${user.company.name}</td>
+//                 </tr>
+//                 `
+//             })
+//         })
+//     })
+//     .catch((err)=>{console.log(err)});
+// }
+// fetchusers();
+
+// let p=new Promise((resolve, reject)=>{
+//     setTimeout(()=>{
+//         resolve("Prmoise successfully completing")
+//     },3000)
+// })
+// async function demo(){
+//     console.log("Start");
+//     let x=await p;
+//     console.log(x);
+//     console.log("End");
+// }
+// demo();
+
+// async function fetchusers() {
+//     let response = await fetch("https://jsonplaceholder.typicode.com/users")
+//     // console.log(response);
+//     let data= await response.json();
+//     console.log(data);
+// }
+// fetchusers();
+
 // console.log(window);
-function fetchusers(){
-    let res=window.fetch("https://jsonplaceholder.typicode.com/users");
-    // console.log(res);
-    res.then((response)=>{
-        // console.log(response);
-        // console.log(response.json());
-        return response.json().then(data=>{
-            // console.log(data);
-            let store = document.getElementById("store");
-            // console.log(store);
-            data.map((user)=>{
-                // console.log(user);
-                store.innerHTML+=`
-                <tr>
-                <td>${user.id}</td>
-                <td>${user.name}</td>
-                <td>${user.email}</td>
-                <td>${user.company.name}</td>
-                </tr>
-                `
-            })
-        })
-    })
-    .catch((err)=>{console.log(err)});
-}
-fetchusers();
+// console.log(document);

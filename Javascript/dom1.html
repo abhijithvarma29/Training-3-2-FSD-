@@ -6,17 +6,44 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- //assignment -->
+
     <!-- <div class="mainBlock">
-        <div class=""
+        <div class="topblock">
+            <img src="" alt="">
+        </div>
+        <div class="bottomBlock">
+            <h1>Heading</h1>
+            <button>viewMore</button>
+        </div>
     </div> -->
 
-    <form>
+    <!-- <form>
         <input type="text" placeholder="name" id="uName">
         <input type="email" placeholder="email" id="uEmail">
         <input type="password" placeholder="password" id="uPassword">
         <button type="submit">Submit</button>
+    </form> -->
+
+    <form>
+        <div class="formgroup">
+            <label for="">Username:</label>
+            <input type="text" id="uName" placeholder="Enter username">
+        </div>
+        <div class="formgroup">
+            <label for="">Password:</label>
+            <input type="password" id="uPass" placeholder="Enter password">
+        </div>
+        <div class="formgroup">
+            <label for="">Gender:</label>
+            <input type="radio" name="gender" value="male"><span>Male</span>
+            <input type="radio" name="gender" value="female"><span>Female</span>
+            <input type="radio" name="gender" value="others"><span>others</span>
+        </div>
+        <div class="formgroup">
+            <button>submit</button>
+        </div>
     </form>
+
     <script src="./dom1.js"></script>
 </body>
 </html>

@@ -84,16 +84,19 @@
 // inp.addEventListener("keyup",()=>{
 //     console.log("key pressed up");
 // })
-let bgcolor=document.querySelectorAll(".bgcolor");
-console.log(bgcolor);
-[...bgcolor].map((element)=>{
-    console.log(element);
-    element.addEventListener("mouseover",()=>{
-        console.log(element.innerText)
-        element.style.backgroundColor = element.innerText;
-    });
-    element.addEventListener("mouseleave",()=>{
-        console.log("Mouse left");
-        element.style.backgroundColor = "transparent";
-    });
-});
+// let bgcolor=document.querySelectorAll(".bgcolor");
+// console.log(bgcolor);
+// [...bgcolor].map((element)=>{
+//     console.log(element);
+//     element.addEventListener("mouseover",()=>{
+//         console.log(element.innerText)
+//         element.style.backgroundColor = element.innerText;
+//     });
+//     element.addEventListener("mouseleave",()=>{
+//         console.log("Mouse left");
+//         element.style.backgroundColor = "transparent";
+//     });
+// });
+
+
+

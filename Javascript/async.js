@@ -31,7 +31,7 @@
 // .catch((error)=>{console.log(error)})
 // .finally(()=>console.log("Finally"));
 
-//API FETCHING
+//!API FETCHING
 // // console.log(window);
 // function fetchusers(){
 //     let res=window.fetch("https://jsonplaceholder.typicode.com/users");

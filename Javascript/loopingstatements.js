@@ -9,7 +9,7 @@
 //     }
 // }
 
-//write a js program to find factorial of a number
+//!write a js program to find factorial of a number
 //5!= 5*4*3*2*1
 // let num=Number(prompt("Enter a number"));
 // let fact=1;
@@ -19,14 +19,14 @@
 // }
 // console.log("Factorial of "+num+" : "+fact);
 
-//WHILE LOOP
+//!WHILE LOOP
 // let i=1;
 // while(i<=5){
 //     console.log("Good Morning!")
 //     i++; 
 // }
 
-//DO WHILE
+//!DO WHILE
 let i=1;
 do{
     console.log("please wake up");

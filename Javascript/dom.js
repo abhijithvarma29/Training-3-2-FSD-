@@ -1,4 +1,4 @@
-// //document.getElementById
+//!document.getElementById
 
 // let element = document.getElementById("demo");
 // element.innerText = "DOM"

@@ -1,11 +1,11 @@
-// //Without parameters and arguments
+//!Without parameters and arguments
 // function demo(){//function declaration
 //     console.log("Hello i am function");
 // }
 // demo(); //function calling
 //demo();
 
-// //With parameters and arguments
+//!With parameters and arguments
 // function add(a, b){
 //     // console.log("a=" + a);
 //     // console.log("b=" + b);
@@ -14,7 +14,7 @@
 // add(10,20);
 // add(5,6);
 
-// //Palindrome
+//!Palindrome
 // function ispalindrome(str){
 //     let revstr="";
 //     for(let i=str.length-1; i>=0; i--){
@@ -34,12 +34,12 @@
 // ispalindrome("madam");
 // ispalindrome("malayalam");
 
-// //ANONYMOUS FUNCTION
+//!ANONYMOUS FUNCTION
 // function(){
 //     console.log("Anonymous function");
 // }//cannot be executed independently
 
-// // function expression
+//! function expression
 // let x=function(){
 //     console.log("Function expression");
 // }
@@ -47,14 +47,14 @@
 // x();
 // x();
 
-// IIFE(IMMEDIATE INVOKE FUNCTION EXPRESSION)
+//!IIFE(IMMEDIATE INVOKE FUNCTION EXPRESSION)
 // (
 //     function(){
 //     console.log("IIFE");
 // }
 // )();
 
-//ARROW FUNCTION
+//!ARROW FUNCTION
 // let x=()=>{console.log("Arrow function with ()");}
 // x();
 // let y=_=>{console.log("Arrow function with _");}
@@ -85,7 +85,7 @@
 // let y=(a,b)=>{return a+b}//explicit return
 // console.log(y(10,5));
 
-//higher order function
+//!higher order function
 // function hof(a){
     
 //     return a();

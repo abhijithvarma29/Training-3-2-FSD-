@@ -34,14 +34,14 @@ let employees =[
 ]
 const table = document.getElementById("table");
 employees.forEach(emp => {
-const row = document.createElement("tr");
-row.innerHTML = `
-    <td>${emp.empid}</td>
-    <td>${emp.empname}</td>
-    <td>${emp.empcompany}</td>
-    <td>${emp.empsalary}</td>
-    <td>${emp.empaddress.empcity}</td>
-    <td>${emp.empaddress.emparea}</td>
+table.innerHTML += `
+    <tr>
+        <td>${emp.empid}</td>
+        <td>${emp.empname}</td>
+        <td>${emp.empcompany}</td>
+        <td>${emp.empsalary}</td>
+        <td>${emp.empaddress.empcity}</td>
+        <td>${emp.empaddress.emparea}</td>
+    </tr>
     `;
-    table.appendChild(row);
 });

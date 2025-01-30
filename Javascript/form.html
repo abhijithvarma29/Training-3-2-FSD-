@@ -1,0 +1,28 @@
+<!-- create a form that contains username(not empty), email(@,not empty), password(should be 6 char), confirmpassword(same as password and not empty) and once u click on submit button a alert should be popped up on screen saying form is submitted if and only if all the details are correct -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        form {
+            width: 300px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <form id="myForm">
+        Username: <input type="text" id="username" required><br>
+        Email: <input type="email" id="email" required><br>
+        Password: <input type="password" id="password" required minlength="6"><br>
+        Confirm Password: <input type="password" id="confirmPassword" required><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

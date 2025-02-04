@@ -31,14 +31,42 @@
 // export default App;
 
 //!props
-import React from 'react'
-import CBCPropex1 from './propsexample/CBCPropex1';
+//?Class component
+// import React from 'react'
+// import CBCPropex1 from './propsexample/CBCPropex1';
 
-class App extends React.Component {
-  render() {
-    return (
-      <CBCPropex1 username="Sam"/>
-    )
-  }
+// class App extends React.Component {
+//   render() {
+//     return (
+//       <CBCPropex1 
+//       username="Sam"
+//       age={25}
+//       desig={["developer","tester"]}
+//       userdetails={{city:"Hyd", area:"maisammaguda"}}
+//       sendFun={function(){
+//         alert("Hi, I am from parent component")
+//       }}
+//       />
+//     )
+//   }
+// }
+// export default App;
+
+//?Funtional component
+import React from 'react'
+import FBCPropex from './propsexample/FBCPropex'
+
+const App = () => {
+  return (
+    <div>
+      <FBCPropex
+        username="Abhi"
+        isLoggedIn={true}
+        // isLoggedIn={false}
+        hobbies={["watching movies","Listening music"]}
+      />
+    </div>
+  )
 }
-export default App;
+
+export default App

@@ -53,20 +53,49 @@
 // export default App;
 
 //?Funtional component
-import React from 'react'
-import FBCPropex from './propsexample/FBCPropex'
+// import React from 'react'
+// import FBCPropex from './propsexample/FBCPropex'
 
-const App = () => {
-  return (
-    <div>
-      <FBCPropex
-        username="Abhi"
-        isLoggedIn={true}
-        // isLoggedIn={false}
-        hobbies={["watching movies","Listening music"]}
-      />
-    </div>
-  )
-}
+// const App = () => {
+//   return (
+//     <div>
+//       <FBCPropex
+//         username="Abhi"
+//         isLoggedIn={true}
+//         // isLoggedIn={false}
+//         hobbies={["watching movies","Listening music"]}
+//       />
+//     </div>
+//   )
+// }
+
+// export default App
+
+//!props children example
+// import React from 'react'
+// import PropsChildrenex from './propsexample/PropsChildrenex'
+// import Childprops from './propsexample/Childprops'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <PropsChildrenex username="abhi" company="Meta">
+//         <h1>This data is passed as props children</h1>
+//         <Childprops/>
+//       </PropsChildrenex>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//!Props Drilling
+// import React from 'react'
+
+// const App = () => {
+//   return (
+//     <div>App</div>
+//   )
+// }
 
 export default App

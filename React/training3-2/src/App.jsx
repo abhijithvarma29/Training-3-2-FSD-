@@ -98,4 +98,33 @@
 //   )
 // }
 
+// export default App
+
+//! State
+//? class component
+// import React from 'react'
+// import CBCStateex from './stateexamples/CBCStateex'
+
+// const App = () => {
+//   return (
+//     <div>
+//         <CBCStateex></CBCStateex>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//? functional component
+import React from 'react'
+import FBCStateex from './stateexamples/FBCStateex'
+
+const App = () => {
+  return (
+    <div>
+        <FBCStateex/>
+    </div>
+  )
+}
+
 export default App

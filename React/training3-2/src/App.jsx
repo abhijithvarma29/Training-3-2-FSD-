@@ -116,13 +116,26 @@
 // export default App
 
 //? functional component
+// import React from 'react'
+// import FBCStateex from './stateexamples/FBCStateex'
+
+// const App = () => {
+//   return (
+//     <div>
+//         <FBCStateex/>
+//     </div>
+//   )
+// }
+
+// export default App
+
 import React from 'react'
-import FBCStateex from './stateexamples/FBCStateex'
+import Myform from './components/Myform'
 
 const App = () => {
   return (
     <div>
-        <FBCStateex/>
+      <Myform></Myform>
     </div>
   )
 }

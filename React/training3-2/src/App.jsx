@@ -129,13 +129,41 @@
 
 // export default App
 
+// import React from 'react'
+// import Myform from './components/Myform'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <Myform></Myform>
+//     </div>
+//   )
+// }
+
+// export default App
+
+//! UseEffect
+// import React from 'react'
+// import ExUseEffect from './Hooks/ExUseEffect'
+
+// const App = () => {
+//   return (
+//     <div>
+//       <ExUseEffect></ExUseEffect>
+//     </div>
+//   )
+// }
+
+// export default App
+
+// ! useRef
 import React from 'react'
-import Myform from './components/Myform'
+import Refexamples from './Hooks/Refexamples'
 
 const App = () => {
   return (
     <div>
-      <Myform></Myform>
+      <Refexamples></Refexamples>
     </div>
   )
 }

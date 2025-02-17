@@ -11,12 +11,12 @@ const Edit = () => {
     const navigate = useNavigate();
 
     // ! 
-    const {userId} = useParams();
+    const {userid} = useParams();
     // console.log(data.userId);
 
     // ! to print the existing value of a individual user
     useEffect(()=>{
-      axios.get("http://localhost:8000/users/"+userId)
+      axios.get("http://localhost:8000/users/"+userid)
       .then(res=>{
         // console.log(res.data);
         setName(res.data.name)
@@ -30,7 +30,7 @@ const Edit = () => {
         let payload = {name , email , phone};
 
         // console.log(payload);
-        axios.put("http://localhost:8000/users/"+userId ,payload)
+        axios.put("http://localhost:8000/users/"+userid ,payload)
         .then(res=>{
           toast.success("user updated successfullt");
           navigate("/")
